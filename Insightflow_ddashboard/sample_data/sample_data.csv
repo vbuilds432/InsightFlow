@@ -1,0 +1,241 @@
+order_id,order_date,region,category,product,quantity,unit_price,unit_cost,revenue
+ORD-2026001,2025-11-02,West,Stationery,Desktop Organizer Set,7,849,360,5943
+ORD-2026002,2025-11-01,North,Furniture,Ergonomic Footrest,5,1199,510,5995
+ORD-2026003,2025-11-02,South,Apparel,Denim Jacket,8,2799,1200,22392
+ORD-2026004,2025-11-02,North,Electronics,Noise-Canceling Headphones,3,3499,1550,10497
+ORD-2026005,2025-11-03,South,Electronics,Ultra-HD Webcam,7,2299,990,16093
+ORD-2026006,2025-11-04,North,Furniture,Bookshelf,2,3200,1400,6400
+ORD-2026007,2025-11-04,East,Furniture,Bookshelf,3,3200,1400,9600
+ORD-2026008,2025-11-06,East,Electronics,Wireless Mouse,15,499,210,7485
+ORD-2026009,2025-11-08,East,Electronics,Noise-Canceling Headphones,2,3499,1550,6998
+ORD-2026010,2025-11-08,North,Apparel,Denim Jacket,6,2799,1200,16794
+ORD-2026011,2025-11-07,North,Apparel,Running Shoes,7,2200,980,15400
+ORD-2026012,2025-11-08,North,Apparel,Sports Backpack,12,1299,540,15588
+ORD-2026013,2025-11-11,West,Apparel,Fleece Hoodie,8,1599,690,12792
+ORD-2026014,2025-11-09,South,Apparel,Denim Jacket,3,2799,1200,8397
+ORD-2026015,2025-11-12,South,Apparel,Running Shoes,2,2200,980,4400
+ORD-2026016,2025-11-11,South,Furniture,Desk Lamp,3,899,380,2697
+ORD-2026017,2025-11-14,East,Apparel,Sports Backpack,12,1299,540,15588
+ORD-2026018,2025-11-12,East,Stationery,Executive Notebook,20,299,110,5980
+ORD-2026019,2025-11-14,West,Stationery,Executive Notebook,7,299,110,2093
+ORD-2026020,2025-11-15,South,Electronics,Mechanical Keyboard,6,2799,1250,16794
+ORD-2026021,2025-11-16,North,Electronics,Bluetooth Speaker,3,1499,620,4497
+ORD-2026022,2025-11-16,West,Electronics,USB-C Charger,8,699,290,5592
+ORD-2026023,2025-11-16,South,Apparel,Denim Jacket,4,2799,1200,11196
+ORD-2026024,2025-11-17,North,Stationery,Executive Notebook,3,299,110,897
+ORD-2026025,2025-11-18,East,Apparel,Sports Backpack,12,1299,540,15588
+ORD-2026026,2025-11-20,North,Electronics,Bluetooth Speaker,9,1499,620,13491
+ORD-2026027,2025-11-21,North,Furniture,Bookshelf,3,3200,1400,9600
+ORD-2026028,2025-11-20,West,Electronics,Ultra-HD Webcam,6,2299,990,13794
+ORD-2026029,2025-11-22,South,Electronics,USB-C Charger,10,699,290,6990
+ORD-2026030,2025-11-21,North,Furniture,Study Table,3,5600,2800,16800
+ORD-2026031,2025-11-22,South,Furniture,Study Table,3,5600,2800,16800
+ORD-2026032,2025-11-25,East,Furniture,Study Table,4,5600,2800,22400
+ORD-2026033,2025-11-26,South,Electronics,Bluetooth Speaker,6,1499,620,8994
+ORD-2026034,2025-11-24,West,Electronics,Bluetooth Speaker,2,1499,620,2998
+ORD-2026035,2025-11-25,North,Stationery,Desktop Organizer Set,9,849,360,7641
+ORD-2026036,2025-11-27,East,Electronics,Ultra-HD Webcam,4,2299,990,9196
+ORD-2026037,2025-11-27,East,Furniture,Ergonomic Footrest,2,1199,510,2398
+ORD-2026038,2025-11-27,South,Furniture,Bookshelf,2,3200,1400,6400
+ORD-2026039,2025-11-29,East,Apparel,Running Shoes,1,2200,980,2200
+ORD-2026040,2025-12-01,West,Furniture,Office Chair,1,4200,2100,4200
+ORD-2026041,2025-12-02,East,Electronics,Ultra-HD Webcam,2,2299,990,4598
+ORD-2026042,2025-11-30,South,Stationery,Executive Notebook,11,299,110,3289
+ORD-2026043,2025-12-01,North,Electronics,Mechanical Keyboard,2,2799,1250,5598
+ORD-2026044,2025-12-02,East,Furniture,Study Table,2,5600,2800,11200
+ORD-2026045,2025-12-04,North,Stationery,Desktop Organizer Set,12,849,360,10188
+ORD-2026046,2025-12-05,West,Electronics,Mechanical Keyboard,1,2799,1250,2799
+ORD-2026047,2025-12-05,West,Furniture,Study Table,4,5600,2800,22400
+ORD-2026048,2025-12-05,North,Stationery,Metal Fountain Pen,11,799,320,8789
+ORD-2026049,2025-12-08,East,Stationery,Desktop Organizer Set,3,849,360,2547
+ORD-2026050,2025-12-07,South,Electronics,Wireless Mouse,6,499,210,2994
+ORD-2026051,2025-12-08,East,Electronics,Wireless Mouse,12,499,210,5988
+ORD-2026052,2025-12-09,North,Apparel,Sports Backpack,12,1299,540,15588
+ORD-2026053,2025-12-11,South,Apparel,Denim Jacket,1,2799,1200,2799
+ORD-2026054,2025-12-09,North,Apparel,Sports Backpack,5,1299,540,6495
+ORD-2026055,2025-12-10,South,Furniture,Desk Lamp,9,899,380,8091
+ORD-2026056,2025-12-12,West,Apparel,Running Shoes,4,2200,980,8800
+ORD-2026057,2025-12-13,East,Electronics,Mechanical Keyboard,5,2799,1250,13995
+ORD-2026058,2025-12-12,East,Electronics,Bluetooth Speaker,11,1499,620,16489
+ORD-2026059,2025-12-15,East,Stationery,Desktop Organizer Set,7,849,360,5943
+ORD-2026060,2025-12-15,East,Stationery,Executive Notebook,17,299,110,5083
+ORD-2026061,2025-12-17,North,Electronics,Wireless Mouse,14,499,210,6986
+ORD-2026062,2025-12-16,West,Electronics,Noise-Canceling Headphones,1,3499,1550,3499
+ORD-2026063,2025-12-17,North,Electronics,USB-C Charger,9,699,290,6291
+ORD-2026064,2025-12-18,West,Stationery,Executive Notebook,16,299,110,4784
+ORD-2026065,2025-12-20,East,Apparel,Sports Backpack,6,1299,540,7794
+ORD-2026066,2025-12-19,West,Apparel,Fleece Hoodie,5,1599,690,7995
+ORD-2026067,2025-12-20,North,Electronics,Ultra-HD Webcam,8,2299,990,18392
+ORD-2026068,2025-12-21,West,Furniture,Ergonomic Footrest,2,1199,510,2398
+ORD-2026069,2025-12-21,South,Apparel,Running Shoes,8,2200,980,17600
+ORD-2026070,2025-12-22,South,Electronics,Bluetooth Speaker,4,1499,620,5996
+ORD-2026071,2025-12-23,West,Electronics,USB-C Charger,9,699,290,6291
+ORD-2026072,2025-12-25,North,Electronics,Noise-Canceling Headphones,1,3499,1550,3499
+ORD-2026073,2025-12-26,North,Furniture,Bookshelf,3,3200,1400,9600
+ORD-2026074,2025-12-25,North,Electronics,USB-C Charger,10,699,290,6990
+ORD-2026075,2025-12-27,East,Furniture,Desk Lamp,4,899,380,3596
+ORD-2026076,2025-12-28,North,Apparel,Fleece Hoodie,2,1599,690,3198
+ORD-2026077,2025-12-27,North,Apparel,Cotton T-Shirt,19,399,140,7581
+ORD-2026078,2025-12-27,South,Electronics,Mechanical Keyboard,4,2799,1250,11196
+ORD-2026079,2025-12-30,South,Apparel,Cotton T-Shirt,7,399,140,2793
+ORD-2026080,2025-12-29,South,Apparel,Running Shoes,3,2200,980,6600
+ORD-2026081,2025-12-31,South,Electronics,USB-C Charger,4,699,290,2796
+ORD-2026082,2025-12-30,South,Furniture,Office Chair,2,4200,2100,8400
+ORD-2026083,2026-01-01,West,Electronics,Bluetooth Speaker,4,1499,620,5996
+ORD-2026084,2026-01-03,North,Stationery,Executive Notebook,7,299,110,2093
+ORD-2026085,2026-01-02,North,Apparel,Cotton T-Shirt,16,399,140,6384
+ORD-2026086,2026-01-02,East,Electronics,USB-C Charger,11,699,290,7689
+ORD-2026087,2026-01-04,South,Apparel,Sports Backpack,7,1299,540,9093
+ORD-2026088,2026-01-04,South,Electronics,Bluetooth Speaker,10,1499,620,14990
+ORD-2026089,2026-01-06,West,Electronics,USB-C Charger,2,699,290,1398
+ORD-2026090,2026-01-06,North,Furniture,Study Table,3,5600,2800,16800
+ORD-2026091,2026-01-06,South,Stationery,Executive Notebook,7,299,110,2093
+ORD-2026092,2026-01-07,North,Stationery,Metal Fountain Pen,2,799,320,1598
+ORD-2026093,2026-01-09,North,Electronics,Mechanical Keyboard,7,2799,1250,19593
+ORD-2026094,2026-01-08,West,Furniture,Ergonomic Footrest,3,1199,510,3597
+ORD-2026095,2026-01-11,North,Apparel,Fleece Hoodie,5,1599,690,7995
+ORD-2026096,2026-01-10,North,Electronics,Bluetooth Speaker,10,1499,620,14990
+ORD-2026097,2026-01-11,East,Furniture,Ergonomic Footrest,9,1199,510,10791
+ORD-2026098,2026-01-13,North,Apparel,Cotton T-Shirt,3,399,140,1197
+ORD-2026099,2026-01-13,South,Apparel,Cotton T-Shirt,12,399,140,4788
+ORD-2026100,2026-01-14,South,Furniture,Desk Lamp,7,899,380,6293
+ORD-2026101,2026-01-16,West,Apparel,Denim Jacket,8,2799,1200,22392
+ORD-2026102,2026-01-14,West,Electronics,Mechanical Keyboard,6,2799,1250,16794
+ORD-2026103,2026-01-15,North,Apparel,Sports Backpack,8,1299,540,10392
+ORD-2026104,2026-01-17,North,Apparel,Cotton T-Shirt,20,399,140,7980
+ORD-2026105,2026-01-17,West,Electronics,Mechanical Keyboard,5,2799,1250,13995
+ORD-2026106,2026-01-18,East,Furniture,Study Table,3,5600,2800,16800
+ORD-2026107,2026-01-20,East,Stationery,Desktop Organizer Set,8,849,360,6792
+ORD-2026108,2026-01-21,North,Electronics,Mechanical Keyboard,6,2799,1250,16794
+ORD-2026109,2026-01-22,North,Furniture,Ergonomic Footrest,5,1199,510,5995
+ORD-2026110,2026-01-21,West,Electronics,Bluetooth Speaker,5,1499,620,7495
+ORD-2026111,2026-01-21,East,Apparel,Running Shoes,5,2200,980,11000
+ORD-2026112,2026-01-22,North,Electronics,Bluetooth Speaker,2,1499,620,2998
+ORD-2026113,2026-01-25,North,Apparel,Fleece Hoodie,1,1599,690,1599
+ORD-2026114,2026-01-24,East,Electronics,Noise-Canceling Headphones,3,3499,1550,10497
+ORD-2026115,2026-01-24,South,Apparel,Sports Backpack,7,1299,540,9093
+ORD-2026116,2026-01-27,South,Furniture,Bookshelf,3,3200,1400,9600
+ORD-2026117,2026-01-28,South,Apparel,Sports Backpack,5,1299,540,6495
+ORD-2026118,2026-01-26,North,Furniture,Office Chair,1,4200,2100,4200
+ORD-2026119,2026-01-29,East,Stationery,Desktop Organizer Set,6,849,360,5094
+ORD-2026120,2026-01-28,East,Apparel,Sports Backpack,3,1299,540,3897
+ORD-2026121,2026-01-29,West,Electronics,Ultra-HD Webcam,3,2299,990,6897
+ORD-2026122,2026-01-29,East,Apparel,Fleece Hoodie,5,1599,690,7995
+ORD-2026123,2026-01-30,West,Apparel,Cotton T-Shirt,14,399,140,5586
+ORD-2026124,2026-02-02,East,Electronics,Wireless Mouse,24,499,210,11976
+ORD-2026125,2026-02-01,South,Furniture,Office Chair,2,4200,2100,8400
+ORD-2026126,2026-02-01,North,Electronics,Noise-Canceling Headphones,2,3499,1550,6998
+ORD-2026127,2026-02-03,North,Apparel,Fleece Hoodie,6,1599,690,9594
+ORD-2026128,2026-02-05,West,Apparel,Fleece Hoodie,1,1599,690,1599
+ORD-2026129,2026-02-05,North,Furniture,Study Table,3,5600,2800,16800
+ORD-2026130,2026-02-06,South,Furniture,Office Chair,2,4200,2100,8400
+ORD-2026131,2026-02-05,East,Electronics,USB-C Charger,5,699,290,3495
+ORD-2026132,2026-02-06,South,Apparel,Fleece Hoodie,1,1599,690,1599
+ORD-2026133,2026-02-07,North,Electronics,Noise-Canceling Headphones,1,3499,1550,3499
+ORD-2026134,2026-02-07,North,Electronics,Ultra-HD Webcam,4,2299,990,9196
+ORD-2026135,2026-02-09,West,Furniture,Bookshelf,1,3200,1400,3200
+ORD-2026136,2026-02-09,North,Electronics,Mechanical Keyboard,8,2799,1250,22392
+ORD-2026137,2026-02-10,West,Furniture,Office Chair,1,4200,2100,4200
+ORD-2026138,2026-02-10,East,Electronics,USB-C Charger,12,699,290,8388
+ORD-2026139,2026-02-13,East,Apparel,Denim Jacket,1,2799,1200,2799
+ORD-2026140,2026-02-14,West,Electronics,Ultra-HD Webcam,3,2299,990,6897
+ORD-2026141,2026-02-15,South,Furniture,Bookshelf,1,3200,1400,3200
+ORD-2026142,2026-02-14,South,Electronics,Bluetooth Speaker,9,1499,620,13491
+ORD-2026143,2026-02-16,East,Stationery,Metal Fountain Pen,11,799,320,8789
+ORD-2026144,2026-02-15,North,Furniture,Bookshelf,1,3200,1400,3200
+ORD-2026145,2026-02-18,East,Electronics,Wireless Mouse,8,499,210,3992
+ORD-2026146,2026-02-17,South,Furniture,Ergonomic Footrest,6,1199,510,7194
+ORD-2026147,2026-02-17,West,Stationery,Metal Fountain Pen,6,799,320,4794
+ORD-2026148,2026-02-19,South,Furniture,Study Table,3,5600,2800,16800
+ORD-2026149,2026-02-19,West,Electronics,USB-C Charger,3,699,290,2097
+ORD-2026150,2026-02-20,East,Furniture,Ergonomic Footrest,10,1199,510,11990
+ORD-2026151,2026-02-21,North,Furniture,Bookshelf,3,3200,1400,9600
+ORD-2026152,2026-02-21,East,Electronics,Ultra-HD Webcam,6,2299,990,13794
+ORD-2026153,2026-02-22,South,Apparel,Denim Jacket,3,2799,1200,8397
+ORD-2026154,2026-02-23,North,Electronics,Ultra-HD Webcam,7,2299,990,16093
+ORD-2026155,2026-02-25,East,Apparel,Fleece Hoodie,2,1599,690,3198
+ORD-2026156,2026-02-26,North,Electronics,USB-C Charger,11,699,290,7689
+ORD-2026157,2026-02-27,West,Electronics,Noise-Canceling Headphones,1,3499,1550,3499
+ORD-2026158,2026-02-25,West,Electronics,Bluetooth Speaker,9,1499,620,13491
+ORD-2026159,2026-02-26,North,Apparel,Sports Backpack,4,1299,540,5196
+ORD-2026160,2026-02-27,West,Electronics,Mechanical Keyboard,7,2799,1250,19593
+ORD-2026161,2026-03-02,South,Apparel,Fleece Hoodie,6,1599,690,9594
+ORD-2026162,2026-03-02,West,Electronics,Noise-Canceling Headphones,1,3499,1550,3499
+ORD-2026163,2026-03-01,West,Electronics,Noise-Canceling Headphones,4,3499,1550,13996
+ORD-2026164,2026-03-02,North,Furniture,Bookshelf,3,3200,1400,9600
+ORD-2026165,2026-03-05,West,Furniture,Study Table,3,5600,2800,16800
+ORD-2026166,2026-03-03,East,Furniture,Office Chair,3,4200,2100,12600
+ORD-2026167,2026-03-04,East,Stationery,Desktop Organizer Set,12,849,360,10188
+ORD-2026168,2026-03-07,South,Apparel,Sports Backpack,6,1299,540,7794
+ORD-2026169,2026-03-06,West,Apparel,Fleece Hoodie,1,1599,690,1599
+ORD-2026170,2026-03-07,North,Electronics,Mechanical Keyboard,4,2799,1250,11196
+ORD-2026171,2026-03-08,North,Apparel,Denim Jacket,8,2799,1200,22392
+ORD-2026172,2026-03-09,East,Stationery,Metal Fountain Pen,2,799,320,1598
+ORD-2026173,2026-03-11,South,Furniture,Study Table,4,5600,2800,22400
+ORD-2026174,2026-03-10,South,Furniture,Desk Lamp,9,899,380,8091
+ORD-2026175,2026-03-11,South,Stationery,Desktop Organizer Set,10,849,360,8490
+ORD-2026176,2026-03-12,North,Apparel,Running Shoes,2,2200,980,4400
+ORD-2026177,2026-03-12,North,Electronics,USB-C Charger,2,699,290,1398
+ORD-2026178,2026-03-12,East,Electronics,USB-C Charger,12,699,290,8388
+ORD-2026179,2026-03-14,West,Electronics,Mechanical Keyboard,5,2799,1250,13995
+ORD-2026180,2026-03-15,North,Electronics,USB-C Charger,11,699,290,7689
+ORD-2026181,2026-03-17,East,Furniture,Office Chair,4,4200,2100,16800
+ORD-2026182,2026-03-16,South,Apparel,Cotton T-Shirt,22,399,140,8778
+ORD-2026183,2026-03-18,North,Electronics,Mechanical Keyboard,3,2799,1250,8397
+ORD-2026184,2026-03-17,East,Furniture,Bookshelf,2,3200,1400,6400
+ORD-2026185,2026-03-19,South,Electronics,Wireless Mouse,16,499,210,7984
+ORD-2026186,2026-03-18,East,Stationery,Desktop Organizer Set,4,849,360,3396
+ORD-2026187,2026-03-20,South,Electronics,Bluetooth Speaker,10,1499,620,14990
+ORD-2026188,2026-03-20,East,Stationery,Metal Fountain Pen,7,799,320,5593
+ORD-2026189,2026-03-22,East,Furniture,Ergonomic Footrest,11,1199,510,13189
+ORD-2026190,2026-03-21,West,Furniture,Study Table,4,5600,2800,22400
+ORD-2026191,2026-03-22,South,Electronics,Wireless Mouse,3,499,210,1497
+ORD-2026192,2026-03-24,West,Apparel,Sports Backpack,7,1299,540,9093
+ORD-2026193,2026-03-25,West,Stationery,Executive Notebook,12,299,110,3588
+ORD-2026194,2026-03-24,North,Stationery,Executive Notebook,9,299,110,2691
+ORD-2026195,2026-03-26,East,Apparel,Cotton T-Shirt,19,399,140,7581
+ORD-2026196,2026-03-28,East,Stationery,Desktop Organizer Set,7,849,360,5943
+ORD-2026197,2026-03-28,East,Apparel,Cotton T-Shirt,24,399,140,9576
+ORD-2026198,2026-03-29,North,Electronics,Bluetooth Speaker,2,1499,620,2998
+ORD-2026199,2026-03-30,South,Electronics,Wireless Mouse,6,499,210,2994
+ORD-2026200,2026-03-29,South,Furniture,Study Table,2,5600,2800,11200
+ORD-2026201,2026-04-01,East,Furniture,Office Chair,1,4200,2100,4200
+ORD-2026202,2026-03-31,West,Apparel,Denim Jacket,7,2799,1200,19593
+ORD-2026203,2026-04-02,South,Furniture,Desk Lamp,9,899,380,8091
+ORD-2026204,2026-04-01,West,Furniture,Desk Lamp,3,899,380,2697
+ORD-2026205,2026-04-02,South,Furniture,Bookshelf,1,3200,1400,3200
+ORD-2026206,2026-04-02,East,Electronics,Noise-Canceling Headphones,3,3499,1550,10497
+ORD-2026207,2026-04-05,West,Apparel,Running Shoes,1,2200,980,2200
+ORD-2026208,2026-04-04,East,Electronics,Ultra-HD Webcam,3,2299,990,6897
+ORD-2026209,2026-04-06,West,Apparel,Running Shoes,4,2200,980,8800
+ORD-2026210,2026-04-05,West,Apparel,Denim Jacket,4,2799,1200,11196
+ORD-2026211,2026-04-07,East,Electronics,Bluetooth Speaker,10,1499,620,14990
+ORD-2026212,2026-04-09,East,Apparel,Cotton T-Shirt,5,399,140,1995
+ORD-2026213,2026-04-08,East,Electronics,Mechanical Keyboard,1,2799,1250,2799
+ORD-2026214,2026-04-10,East,Apparel,Running Shoes,4,2200,980,8800
+ORD-2026215,2026-04-10,North,Stationery,Desktop Organizer Set,3,849,360,2547
+ORD-2026216,2026-04-12,North,Electronics,Noise-Canceling Headphones,4,3499,1550,13996
+ORD-2026217,2026-04-11,South,Stationery,Executive Notebook,9,299,110,2691
+ORD-2026218,2026-04-11,South,Furniture,Ergonomic Footrest,8,1199,510,9592
+ORD-2026219,2026-04-14,South,Furniture,Bookshelf,2,3200,1400,6400
+ORD-2026220,2026-04-15,South,Stationery,Executive Notebook,18,299,110,5382
+ORD-2026221,2026-04-15,West,Furniture,Ergonomic Footrest,8,1199,510,9592
+ORD-2026222,2026-04-16,East,Electronics,Ultra-HD Webcam,8,2299,990,18392
+ORD-2026223,2026-04-15,South,Apparel,Sports Backpack,4,1299,540,5196
+ORD-2026224,2026-04-16,North,Electronics,Mechanical Keyboard,4,2799,1250,11196
+ORD-2026225,2026-04-18,West,Electronics,Mechanical Keyboard,2,2799,1250,5598
+ORD-2026226,2026-04-18,South,Apparel,Running Shoes,6,2200,980,13200
+ORD-2026227,2026-04-20,East,Furniture,Ergonomic Footrest,8,1199,510,9592
+ORD-2026228,2026-04-21,West,Electronics,Wireless Mouse,12,499,210,5988
+ORD-2026229,2026-04-22,North,Furniture,Study Table,1,5600,2800,5600
+ORD-2026230,2026-04-21,South,Electronics,Mechanical Keyboard,5,2799,1250,13995
+ORD-2026231,2026-04-21,South,Apparel,Running Shoes,2,2200,980,4400
+ORD-2026232,2026-04-24,North,Electronics,Bluetooth Speaker,5,1499,620,7495
+ORD-2026233,2026-04-24,East,Electronics,Mechanical Keyboard,2,2799,1250,5598
+ORD-2026234,2026-04-25,East,Furniture,Desk Lamp,5,899,380,4495
+ORD-2026235,2026-04-24,East,Electronics,USB-C Charger,3,699,290,2097
+ORD-2026236,2026-04-25,West,Apparel,Denim Jacket,5,2799,1200,13995
+ORD-2026237,2026-04-27,West,Apparel,Running Shoes,1,2200,980,2200
+ORD-2026238,2026-04-26,North,Apparel,Denim Jacket,7,2799,1200,19593
+ORD-2026239,2026-04-27,West,Apparel,Sports Backpack,7,1299,540,9093
+ORD-2026240,2026-04-30,East,Stationery,Metal Fountain Pen,10,799,320,7990

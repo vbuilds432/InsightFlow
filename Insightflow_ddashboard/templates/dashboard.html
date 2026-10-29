@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InsightFlow — Business Intelligence &amp; Sales Analytics</title>
+  <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+  <meta name="theme-color" content="#1a2744">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="InsightFlow">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="{{ url_for('static', filename='js/chart.umd.min.js') }}"></script>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <svg class="brand-mark" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="28" height="28" rx="7" fill="#1a2744"/>
+        <path d="M7 18 L12 12 L16 15 L21 8" stroke="#14b8a6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="21" cy="8" r="2" fill="#f59e0b"/>
+      </svg>
+      <div class="wordmark">Insight<em>Flow</em></div>
+      <span class="brand-tag">BI Platform</span>
+    </div>
+
+    <div class="topbar-right">
+      <span class="topbar-meta" id="lastUpdated"></span>
+      <button class="btn-icon" id="resetBtn" title="Clear all data">Clear</button>
+    </div>
+  </header>
+
+  <div class="app-layout">
+
+    <div id="emptyState" class="empty-hero hidden">
+      <div class="empty-inner">
+        <h1>Turn your sales data into business intelligence</h1>
+        <p>Upload a CSV to view interactive sales performance analytics, key metrics, regional breakdowns, category trends, and downloadable reports.</p>
+
+        <div class="dropzone" id="dropzone">
+          <div class="dz-title">Drop a CSV here, or click to choose one</div>
+          <div class="dz-sub">Required columns: order_date, region, category, product, quantity, unit_price</div>
+        </div>
+        <input type="file" id="fileInput" accept=".csv" style="display:none">
+
+        <div class="empty-actions">
+          <button class="btn-primary" id="sampleBtn">Load Sample Data</button>
+        </div>
+        <div class="upload-error hidden" id="emptyError"></div>
+      </div>
+    </div>
+
+    <div id="dataView" class="hidden">
+
+      <div class="loading-overlay hidden" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+        <span>Refreshing data...</span>
+      </div>
+
+      <div class="filter-bar" id="filterBar">
+        <div class="filter-group">
+          <label class="filter-label">Region</label>
+          <select class="pill-select" id="regionFilter"><option value="all">All regions</option></select>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label">Category</label>
+          <select class="pill-select" id="categoryFilter"><option value="all">All categories</option></select>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label">Product</label>
+          <select class="pill-select" id="productFilter"><option value="all">All products</option></select>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label">From</label>
+          <input type="date" class="pill-date" id="startDate">
+        </div>
+        <div class="filter-group">
+          <label class="filter-label">To</label>
+          <input type="date" class="pill-date" id="endDate">
+        </div>
+        <div class="filter-actions">
+          <button class="btn-ghost btn-sm" id="clearFiltersBtn">Clear filters</button>
+        </div>
+        <div class="filter-spacer"></div>
+        <div class="toolbar-right">
+          <span class="upload-inline" id="uploadStatus"></span>
+          <button class="btn-ghost btn-sm" id="addMoreBtn">Add data</button>
+          <button class="btn-ghost btn-sm" id="exportCsvBtn">Export CSV</button>
+          <button class="btn-teal btn-sm" id="exportPdfBtn">PDF Report</button>
+          <input type="file" id="fileInputToolbar" accept=".csv" style="display:none">
+        </div>
+      </div>
+
+      <div class="period-compare hidden" id="periodCompare">
+        <div class="compare-label">vs Previous Period</div>
+        <div class="compare-items" id="compareItems"></div>
+      </div>
+
+      <section class="dash-section" id="section-overview">
+
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <div class="kpi-body">
+              <div class="kpi-value" id="kpiRevenue">—</div>
+              <div class="kpi-label">Total Revenue</div>
+            </div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-body">
+              <div class="kpi-value" id="kpiOrders">—</div>
+              <div class="kpi-label">Total Orders</div>
+            </div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-body">
+              <div class="kpi-value" id="kpiUnits">—</div>
+              <div class="kpi-label">Units Sold</div>
+            </div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-body">
+              <div class="kpi-value" id="kpiAOV">—</div>
+              <div class="kpi-label">Avg Order Value</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chart-grid two-col-wide">
+          <div class="panel">
+            <div class="panel-header">
+              <h3>Revenue over time</h3>
+            </div>
+            <canvas id="trendChart" height="110"></canvas>
+          </div>
+          <div class="panel">
+            <div class="panel-header">
+              <h3>Revenue by region</h3>
+            </div>
+            <canvas id="regionChart" height="160"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-grid two-col">
+          <div class="panel">
+            <div class="panel-header">
+              <h3>Top products by revenue</h3>
+            </div>
+            <canvas id="productChart" height="160"></canvas>
+          </div>
+          <div class="panel">
+            <div class="panel-header">
+              <h3>Revenue by category</h3>
+            </div>
+            <canvas id="categoryChart" height="160"></canvas>
+          </div>
+        </div>
+
+        <div class="panel" style="margin-top:16px">
+          <div class="panel-header">
+            <h3>Recent orders</h3>
+            <span class="panel-sub" id="tableCount"></span>
+          </div>
+          <div class="table-scroll" id="tableWrap"></div>
+        </div>
+
+      </section>
+
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("{{ url_for('static', filename='service-worker.js') }}");
+      });
+    }
+  </script>
+</body>
+</html>
