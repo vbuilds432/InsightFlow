@@ -73,7 +73,6 @@ Activate the environment:
 ```powershell
 .venv\Scripts\Activate.ps1
 ```
-*(If you see an execution policy error in PowerShell, run `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` first.)*
 
 ### 4. Install Dependencies
 Install the required packages from `requirements.txt`:
